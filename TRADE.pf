@@ -1,0 +1,7 @@
+      A          R TRADEREC
+      A    REGIONAL      10A         COLHDG('Regional')
+      A    COUNTRY        3A         COLHDG('Country' 'Code')
+      A    TRADEID       10A         COLHDG('Trade' 'ID')
+      A    PRODUCT       20A         COLHDG('Product')
+      A    CURRENCY       3A         COLHDG('Currency')
+      A    AMOUNT        15S 2       COLHDG('Amount')
