@@ -1,0 +1,30 @@
+     A          R HEADER
+     A                                     1'Trade Summary Report'
+     A                                      SPACEA(1)
+     A            REGIONAL      10A        5
+     A                                      TEXT('Regional')
+     A            COUNTRY        3A       20
+     A                                      TEXT('Country Code')
+     A            RPTDATE        8A       34
+     A                                      TEXT('Report Date')
+     A            RPTTIME        6A       46
+     A                                      TEXT('Report Time')    
+     A                                      SPACEA(1)
+     A                                     5'PRODUCT TYPE'
+     A                                    26'TRADE COUNT'
+     A                                    40'TRADE AMOUNT'
+     A                                      SPACEA(1)
+     A
+     A          R DETAIL
+     A            DTYPE         20A        5
+     A            DCOUNT        10S 0     26
+     A            DAMOUNT       15S 2     40
+     A
+     A          R FOOTER
+     A                                      SPACEB(1)
+     A                                     5'Total'
+     A            TOTCOUNT      10S 0     26
+     A                                     TEXT('Total Trade Count')
+     A            TOTAMOUNT     15S 2     40
+     A                                     TEXT('Total Trade Amount')
+     A                                     5'*** End of Report ***'

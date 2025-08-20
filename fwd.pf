@@ -1,0 +1,8 @@
+     A          R FWDR 
+     A            ABREGI        10A         COLHDG('Regional')
+     A            ABCTYC         3A         COLHDG('Country' 'Code')
+     A            ABTRID        10A         COLHDG('Trade' 'ID')
+     A            ABTYPE        20A         COLHDG('Product')
+     A            ABCYPC         3A         COLHDG('Currency1')
+     A            ABCCYC         3A         COLHDG('Currency2')
+     A            ABMONT        15S 2       COLHDG('Amount')

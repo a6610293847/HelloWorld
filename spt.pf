@@ -1,0 +1,8 @@
+     A          R SPTR 
+     A            AAREGI        10A         COLHDG('Regional')
+     A            AACTYC         3A         COLHDG('Country' 'Code')
+     A            AATRID        10A         COLHDG('Trade' 'ID')
+     A            AATYPE        20A         COLHDG('Product')
+     A            AACYPC         3A         COLHDG('Currency1')
+     A            AACCYC         3A         COLHDG('Currency2')
+     A            AAMONT        15S 2       COLHDG('Amount')
